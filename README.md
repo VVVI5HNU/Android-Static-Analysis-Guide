@@ -93,6 +93,13 @@ Navigate to the app’s data directory:
 cd /data/data/com.packagename
 ```
 
+To view .db files:
+
+```bash
+ls
+SELECT * FROM <Parameter>;
+```
+
 Analyze contents such as:
 - Databases (`databases/`)
 - Shared preferences (`shared_prefs/`)
