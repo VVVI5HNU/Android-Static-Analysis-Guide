@@ -118,35 +118,3 @@ To fetch runtime logs related to the application:
 ```bash
 logcat | grep "appname"
 ```
-
-Use this to identify:
-- Sensitive information leakage
-- Debug logs
-- API keys
-- Authentication tokens
-- Error messages
-
----
-
-## 📚 Use Cases
-
-- Android Mobile VAPT
-- Static code and configuration analysis
-- Sensitive data exposure checks
-- Reverse engineering preparation
-- Permission and component analysis
-
----
-
-## 📝 Notes
-
-- This method does **not require the original APK**
-- APK paths may differ across Android versions
-- Root access improves visibility but is not always mandatory
-- Combine static testing with dynamic analysis for better coverage
-
----
-
-## 📜 License
-
-This guide is intended for **educational and authorized security testing purposes only**.
