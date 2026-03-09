@@ -34,6 +34,10 @@ adb devices
 
 Open terminal and run:
 
+```
+pm list packages
+```
+
 ```bash
 adb shell pm path com.packagename
 ```
